@@ -1,0 +1,161 @@
+sku,item_description,brand,department,category,unit_of_measure,is_perishable,shelf_life_days,launch_date
+100001,Harvest Lane Bananas,Harvest Lane,PRODUCE,FRESH_FRUIT,LB,True,10,2022-09-25
+100002,Meridian Select Bananas,Meridian Select,PRODUCE,FRESH_FRUIT,LB,True,5,2009-05-18
+100003,Harvest Lane Gala Apples,Harvest Lane,PRODUCE,FRESH_FRUIT,LB,True,9,2020-06-01
+100004,Meridian Select Gala Apples,Meridian Select,PRODUCE,FRESH_FRUIT,LB,True,4,2016-04-22
+100005,Harvest Lane Strawberries 1 lb,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,7,2023-11-01
+100006,Meridian Select Strawberries 1 lb,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,6,2026-05-12
+100007,Harvest Lane Blueberries 6 oz,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,4,2022-04-08
+100008,Meridian Select Blueberries 6 oz,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,11,2025-04-08
+100009,Harvest Lane Navel Oranges,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,9,2021-03-05
+100010,Meridian Select Navel Oranges,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,9,2023-11-02
+100011,Harvest Lane Red Seedless Grapes,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,10,2023-02-05
+100012,Meridian Select Red Seedless Grapes,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,12,2026-01-26
+100013,Harvest Lane Hass Avocados,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,14,2010-06-10
+100014,Meridian Select Hass Avocados,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,12,2023-09-13
+100015,Harvest Lane Lemons,Harvest Lane,PRODUCE,FRESH_FRUIT,EA,True,11,2022-11-21
+100016,Meridian Select Lemons,Meridian Select,PRODUCE,FRESH_FRUIT,EA,True,10,2012-01-01
+100017,Harvest Lane Romaine Hearts 3 ct,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,10,2024-09-11
+100018,Meridian Select Romaine Hearts 3 ct,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,11,2020-08-22
+100019,Harvest Lane Baby Carrots 1 lb,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,5,2013-02-23
+100020,Meridian Select Baby Carrots 1 lb,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,18,2016-04-19
+100021,Harvest Lane Roma Tomatoes,Harvest Lane,PRODUCE,FRESH_VEGETABLES,LB,True,12,2018-09-17
+100022,Meridian Select Roma Tomatoes,Meridian Select,PRODUCE,FRESH_VEGETABLES,LB,True,18,2019-07-17
+100023,Harvest Lane Yellow Onions 3 lb,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,12,2010-12-11
+100024,Meridian Select Yellow Onions 3 lb,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,9,2017-12-27
+100025,Harvest Lane Russet Potatoes 5 lb,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,11,2022-11-09
+100026,Meridian Select Russet Potatoes 5 lb,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,17,2022-09-30
+100027,Harvest Lane Broccoli Crowns,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,12,2018-08-19
+100028,Meridian Select Broccoli Crowns,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,18,2015-09-30
+100029,Harvest Lane Spring Salad Mix 5 oz,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,8,2016-04-07
+100030,Meridian Select Spring Salad Mix 5 oz,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,17,2017-06-20
+100031,Harvest Lane Cucumbers,Harvest Lane,PRODUCE,FRESH_VEGETABLES,EA,True,18,2021-12-19
+100032,Meridian Select Cucumbers,Meridian Select,PRODUCE,FRESH_VEGETABLES,EA,True,11,2019-02-19
+100033,Northfield 2% Milk Gallon,Northfield,DAIRY,MILK,EA,True,10,2015-08-25
+100034,Meridian Select 2% Milk Gallon,Meridian Select,DAIRY,MILK,EA,True,18,2017-09-04
+100035,Northfield Whole Milk Gallon,Northfield,DAIRY,MILK,EA,True,13,2018-01-09
+100036,Meridian Select Whole Milk Gallon,Meridian Select,DAIRY,MILK,EA,True,12,2024-04-15
+100037,Northfield Skim Milk Half Gallon,Northfield,DAIRY,MILK,EA,True,18,2022-06-11
+100038,Meridian Select Skim Milk Half Gallon,Meridian Select,DAIRY,MILK,EA,True,16,2015-03-04
+100039,Northfield Oat Milk 64 oz,Northfield,DAIRY,MILK,EA,True,16,2020-05-07
+100040,Meridian Select Oat Milk 64 oz,Meridian Select,DAIRY,MILK,EA,True,18,2022-06-06
+100041,Northfield Plain Greek Yogurt 32 oz,Northfield,DAIRY,YOGURT_CHEESE,EA,True,31,2013-06-21
+100042,Meridian Select Plain Greek Yogurt 32 oz,Meridian Select,DAIRY,YOGURT_CHEESE,EA,True,31,2023-10-23
+100043,Northfield Sharp Cheddar 8 oz,Northfield,DAIRY,YOGURT_CHEESE,EA,True,23,2024-03-08
+100044,Meridian Select Sharp Cheddar 8 oz,Meridian Select,DAIRY,YOGURT_CHEESE,EA,True,57,2013-01-10
+100045,Northfield Shredded Mozzarella 16 oz,Northfield,DAIRY,YOGURT_CHEESE,EA,True,33,2022-08-09
+100046,Meridian Select Shredded Mozzarella 16 oz,Meridian Select,DAIRY,YOGURT_CHEESE,EA,True,38,2011-08-08
+100047,Northfield String Cheese 12 ct,Northfield,DAIRY,YOGURT_CHEESE,EA,True,52,2020-02-02
+100048,Meridian Select String Cheese 12 ct,Meridian Select,DAIRY,YOGURT_CHEESE,EA,True,27,2018-05-08
+100049,Northfield Cottage Cheese 16 oz,Northfield,DAIRY,YOGURT_CHEESE,EA,True,60,2024-07-12
+100050,Meridian Select Cottage Cheese 16 oz,Meridian Select,DAIRY,YOGURT_CHEESE,EA,True,29,2013-08-13
+100051,Northfield Large Eggs 12 ct,Northfield,DAIRY,EGGS_BUTTER,EA,True,39,2022-11-10
+100052,Meridian Select Large Eggs 12 ct,Meridian Select,DAIRY,EGGS_BUTTER,EA,True,39,2019-02-19
+100053,Northfield Large Eggs 18 ct,Northfield,DAIRY,EGGS_BUTTER,EA,True,28,2024-02-09
+100054,Meridian Select Large Eggs 18 ct,Meridian Select,DAIRY,EGGS_BUTTER,EA,True,29,2011-08-23
+100055,Northfield Salted Butter 1 lb,Northfield,DAIRY,EGGS_BUTTER,EA,True,44,2020-08-15
+100056,Meridian Select Salted Butter 1 lb,Meridian Select,DAIRY,EGGS_BUTTER,EA,True,30,2012-05-08
+100057,Cedar Creek 80/20 Ground Beef,Cedar Creek,MEAT_SEAFOOD,FRESH_MEAT,LB,True,4,2024-09-18
+100058,Meridian Select 80/20 Ground Beef,Meridian Select,MEAT_SEAFOOD,FRESH_MEAT,LB,True,3,2019-09-07
+100059,Cedar Creek Boneless Chicken Breast,Cedar Creek,MEAT_SEAFOOD,FRESH_MEAT,LB,True,6,2011-08-16
+100060,Meridian Select Boneless Chicken Breast,Meridian Select,MEAT_SEAFOOD,FRESH_MEAT,LB,True,3,2025-01-08
+100061,Cedar Creek Pork Loin Chops,Cedar Creek,MEAT_SEAFOOD,FRESH_MEAT,LB,True,3,2020-11-10
+100062,Meridian Select Pork Loin Chops,Meridian Select,MEAT_SEAFOOD,FRESH_MEAT,LB,True,3,2023-07-24
+100063,Cedar Creek Thick Cut Bacon 12 oz,Cedar Creek,MEAT_SEAFOOD,FRESH_MEAT,EA,True,6,2024-07-27
+100064,Meridian Select Thick Cut Bacon 12 oz,Meridian Select,MEAT_SEAFOOD,FRESH_MEAT,EA,True,3,2017-10-18
+100065,Cedar Creek Atlantic Salmon Fillet,Cedar Creek,MEAT_SEAFOOD,SEAFOOD,LB,True,2,2014-07-22
+100066,Meridian Select Atlantic Salmon Fillet,Meridian Select,MEAT_SEAFOOD,SEAFOOD,LB,True,2,2016-11-02
+100067,Cedar Creek Tilapia Fillet,Cedar Creek,MEAT_SEAFOOD,SEAFOOD,LB,True,4,2010-09-08
+100068,Meridian Select Tilapia Fillet,Meridian Select,MEAT_SEAFOOD,SEAFOOD,LB,True,3,2024-11-17
+100069,Cedar Creek Cooked Shrimp 12 oz,Cedar Creek,MEAT_SEAFOOD,SEAFOOD,EA,True,2,2019-01-24
+100070,Meridian Select Cooked Shrimp 12 oz,Meridian Select,MEAT_SEAFOOD,SEAFOOD,EA,True,4,2011-05-27
+100071,Prairie Hearth White Sandwich Bread,Prairie Hearth,BAKERY,BREAD,EA,True,8,2025-07-29
+100072,Meridian Select White Sandwich Bread,Meridian Select,BAKERY,BREAD,EA,True,8,2012-03-05
+100073,Prairie Hearth Whole Wheat Bread,Prairie Hearth,BAKERY,BREAD,EA,True,5,2019-02-09
+100074,Meridian Select Whole Wheat Bread,Meridian Select,BAKERY,BREAD,EA,True,8,2008-09-24
+100075,Prairie Hearth Plain Bagels 6 ct,Prairie Hearth,BAKERY,BREAD,EA,True,7,2014-10-05
+100076,Meridian Select Plain Bagels 6 ct,Meridian Select,BAKERY,BREAD,EA,True,6,2020-09-02
+100077,Prairie Hearth Hamburger Buns 8 ct,Prairie Hearth,BAKERY,BREAD,EA,True,7,2012-05-30
+100078,Meridian Select Hamburger Buns 8 ct,Meridian Select,BAKERY,BREAD,EA,True,7,2016-04-02
+100079,Prairie Hearth Sourdough Loaf,Prairie Hearth,BAKERY,BREAD,EA,True,8,2022-02-20
+100080,Meridian Select Sourdough Loaf,Meridian Select,BAKERY,BREAD,EA,True,8,2020-08-17
+100081,Prairie Hearth Blueberry Muffins 4 ct,Prairie Hearth,BAKERY,SWEET_GOODS,EA,True,4,2009-08-16
+100082,Meridian Select Blueberry Muffins 4 ct,Meridian Select,BAKERY,SWEET_GOODS,EA,True,6,2011-06-05
+100083,Prairie Hearth Glazed Donuts 6 ct,Prairie Hearth,BAKERY,SWEET_GOODS,EA,True,3,2025-12-25
+100084,Meridian Select Glazed Donuts 6 ct,Meridian Select,BAKERY,SWEET_GOODS,EA,True,3,2020-07-20
+100085,Prairie Hearth Chocolate Chip Cookies 12 ct,Prairie Hearth,BAKERY,SWEET_GOODS,EA,True,4,2025-01-23
+100086,Meridian Select Chocolate Chip Cookies 12 ct,Meridian Select,BAKERY,SWEET_GOODS,EA,True,6,2017-10-13
+100087,Golden Acre Honey Oat Cereal,Golden Acre,GROCERY,CEREAL_BREAKFAST,EA,False,,2020-07-11
+100088,Meridian Select Honey Oat Cereal,Meridian Select,GROCERY,CEREAL_BREAKFAST,EA,False,,2024-07-22
+100089,Golden Acre Corn Flakes,Golden Acre,GROCERY,CEREAL_BREAKFAST,EA,False,,2018-05-21
+100090,Meridian Select Corn Flakes,Meridian Select,GROCERY,CEREAL_BREAKFAST,EA,False,,2016-03-03
+100091,Golden Acre Old Fashioned Oats 42 oz,Golden Acre,GROCERY,CEREAL_BREAKFAST,EA,False,,2009-04-17
+100092,Meridian Select Old Fashioned Oats 42 oz,Meridian Select,GROCERY,CEREAL_BREAKFAST,EA,False,,2019-07-28
+100093,Golden Acre Buttermilk Pancake Mix,Golden Acre,GROCERY,CEREAL_BREAKFAST,EA,False,,2018-01-31
+100094,Meridian Select Buttermilk Pancake Mix,Meridian Select,GROCERY,CEREAL_BREAKFAST,EA,False,,2010-10-02
+100095,Golden Acre Spaghetti 16 oz,Golden Acre,GROCERY,PASTA_SAUCE,EA,False,,2022-08-03
+100096,Meridian Select Spaghetti 16 oz,Meridian Select,GROCERY,PASTA_SAUCE,EA,False,,2015-12-15
+100097,Golden Acre Penne Rigate 16 oz,Golden Acre,GROCERY,PASTA_SAUCE,EA,False,,2015-01-16
+100098,Meridian Select Penne Rigate 16 oz,Meridian Select,GROCERY,PASTA_SAUCE,EA,False,,2024-01-05
+100099,Golden Acre Marinara Sauce 24 oz,Golden Acre,GROCERY,PASTA_SAUCE,EA,False,,2017-08-30
+100100,Meridian Select Marinara Sauce 24 oz,Meridian Select,GROCERY,PASTA_SAUCE,EA,False,,2020-05-21
+100101,Golden Acre Alfredo Sauce 15 oz,Golden Acre,GROCERY,PASTA_SAUCE,EA,False,,2016-09-30
+100102,Meridian Select Alfredo Sauce 15 oz,Meridian Select,GROCERY,PASTA_SAUCE,EA,False,,2016-12-05
+100103,Golden Acre Chicken Noodle Soup,Golden Acre,GROCERY,CANNED_GOODS,EA,False,,2009-06-15
+100104,Meridian Select Chicken Noodle Soup,Meridian Select,GROCERY,CANNED_GOODS,EA,False,,2018-11-25
+100105,Golden Acre Black Beans 15 oz,Golden Acre,GROCERY,CANNED_GOODS,EA,False,,2022-07-31
+100106,Meridian Select Black Beans 15 oz,Meridian Select,GROCERY,CANNED_GOODS,EA,False,,2018-12-20
+100107,Golden Acre Diced Tomatoes 14.5 oz,Golden Acre,GROCERY,CANNED_GOODS,EA,False,,2012-05-09
+100108,Meridian Select Diced Tomatoes 14.5 oz,Meridian Select,GROCERY,CANNED_GOODS,EA,False,,2019-01-05
+100109,Golden Acre Sweet Corn 15 oz,Golden Acre,GROCERY,CANNED_GOODS,EA,False,,2009-07-17
+100110,Meridian Select Sweet Corn 15 oz,Meridian Select,GROCERY,CANNED_GOODS,EA,False,,2018-10-09
+100111,Golden Acre Chunk Light Tuna 5 oz,Golden Acre,GROCERY,CANNED_GOODS,EA,False,,2009-10-01
+100112,Meridian Select Chunk Light Tuna 5 oz,Meridian Select,GROCERY,CANNED_GOODS,EA,False,,2014-10-16
+100113,Golden Acre Potato Chips 8 oz,Golden Acre,GROCERY,SNACKS,EA,False,,2012-05-23
+100114,Meridian Select Potato Chips 8 oz,Meridian Select,GROCERY,SNACKS,EA,False,,2013-02-01
+100115,Golden Acre Tortilla Chips 13 oz,Golden Acre,GROCERY,SNACKS,EA,False,,2013-07-25
+100116,Meridian Select Tortilla Chips 13 oz,Meridian Select,GROCERY,SNACKS,EA,False,,2026-03-03
+100117,Golden Acre Pretzel Twists 16 oz,Golden Acre,GROCERY,SNACKS,EA,False,,2024-12-04
+100118,Meridian Select Pretzel Twists 16 oz,Meridian Select,GROCERY,SNACKS,EA,False,,2012-09-17
+100119,Golden Acre Microwave Popcorn 3 ct,Golden Acre,GROCERY,SNACKS,EA,False,,2013-12-17
+100120,Meridian Select Microwave Popcorn 3 ct,Meridian Select,GROCERY,SNACKS,EA,False,,2025-03-08
+100121,Golden Acre Creamy Peanut Butter 16 oz,Golden Acre,GROCERY,SNACKS,EA,False,,2026-05-13
+100122,Meridian Select Creamy Peanut Butter 16 oz,Meridian Select,GROCERY,SNACKS,EA,False,,2009-05-03
+100123,Golden Acre Ground Coffee 12 oz,Golden Acre,GROCERY,BEVERAGES,EA,False,,2020-07-03
+100124,Meridian Select Ground Coffee 12 oz,Meridian Select,GROCERY,BEVERAGES,EA,False,,2014-02-21
+100125,Golden Acre Sparkling Water 12 pk,Golden Acre,GROCERY,BEVERAGES,EA,False,,2012-06-08
+100126,Meridian Select Sparkling Water 12 pk,Meridian Select,GROCERY,BEVERAGES,EA,False,,2025-05-03
+100127,Golden Acre Cola 12 pk,Golden Acre,GROCERY,BEVERAGES,EA,False,,2022-08-03
+100128,Meridian Select Cola 12 pk,Meridian Select,GROCERY,BEVERAGES,EA,False,,2013-12-14
+100129,Golden Acre Apple Juice 64 oz,Golden Acre,GROCERY,BEVERAGES,EA,False,,2021-04-22
+100130,Meridian Select Apple Juice 64 oz,Meridian Select,GROCERY,BEVERAGES,EA,False,,2021-03-28
+100131,Lakeshore Pepperoni Pizza,Lakeshore,FROZEN,FROZEN_MEALS,EA,False,,2008-05-22
+100132,Meridian Select Pepperoni Pizza,Meridian Select,FROZEN,FROZEN_MEALS,EA,False,,2015-07-25
+100133,Lakeshore Four Cheese Pizza,Lakeshore,FROZEN,FROZEN_MEALS,EA,False,,2008-12-03
+100134,Meridian Select Four Cheese Pizza,Meridian Select,FROZEN,FROZEN_MEALS,EA,False,,2010-09-26
+100135,Lakeshore Chicken Nuggets 2 lb,Lakeshore,FROZEN,FROZEN_MEALS,EA,False,,2025-03-17
+100136,Meridian Select Chicken Nuggets 2 lb,Meridian Select,FROZEN,FROZEN_MEALS,EA,False,,2010-09-26
+100137,Lakeshore Meat Lasagna,Lakeshore,FROZEN,FROZEN_MEALS,EA,False,,2017-04-21
+100138,Meridian Select Meat Lasagna,Meridian Select,FROZEN,FROZEN_MEALS,EA,False,,2025-02-13
+100139,Lakeshore Vanilla Ice Cream 48 oz,Lakeshore,FROZEN,FROZEN_DESSERTS,EA,False,,2010-01-15
+100140,Meridian Select Vanilla Ice Cream 48 oz,Meridian Select,FROZEN,FROZEN_DESSERTS,EA,False,,2010-05-26
+100141,Lakeshore Chocolate Ice Cream 48 oz,Lakeshore,FROZEN,FROZEN_DESSERTS,EA,False,,2020-06-03
+100142,Meridian Select Chocolate Ice Cream 48 oz,Meridian Select,FROZEN,FROZEN_DESSERTS,EA,False,,2025-09-21
+100143,Lakeshore Fruit Bars 6 ct,Lakeshore,FROZEN,FROZEN_DESSERTS,EA,False,,2023-11-09
+100144,Meridian Select Fruit Bars 6 ct,Meridian Select,FROZEN,FROZEN_DESSERTS,EA,False,,2021-03-02
+100145,Lakeshore Sweet Peas 12 oz,Lakeshore,FROZEN,FROZEN_VEGETABLES,EA,False,,2022-05-26
+100146,Meridian Select Sweet Peas 12 oz,Meridian Select,FROZEN,FROZEN_VEGETABLES,EA,False,,2018-09-15
+100147,Lakeshore Broccoli Florets 12 oz,Lakeshore,FROZEN,FROZEN_VEGETABLES,EA,False,,2016-02-27
+100148,Meridian Select Broccoli Florets 12 oz,Meridian Select,FROZEN,FROZEN_VEGETABLES,EA,False,,2018-03-22
+100149,Lakeshore Mixed Vegetables 12 oz,Lakeshore,FROZEN,FROZEN_VEGETABLES,EA,False,,2021-04-23
+100150,Meridian Select Mixed Vegetables 12 oz,Meridian Select,FROZEN,FROZEN_VEGETABLES,EA,False,,2013-07-13
+100151,Brightway Paper Towels 6 roll,Brightway,HOUSEHOLD,PAPER_CLEANING,EA,False,,2014-12-11
+100152,Meridian Select Paper Towels 6 roll,Meridian Select,HOUSEHOLD,PAPER_CLEANING,EA,False,,2010-04-16
+100153,Brightway Bath Tissue 12 roll,Brightway,HOUSEHOLD,PAPER_CLEANING,EA,False,,2024-04-22
+100154,Meridian Select Bath Tissue 12 roll,Meridian Select,HOUSEHOLD,PAPER_CLEANING,EA,False,,2011-03-25
+100155,Brightway Dish Soap 24 oz,Brightway,HOUSEHOLD,PAPER_CLEANING,EA,False,,2017-09-07
+100156,Meridian Select Dish Soap 24 oz,Meridian Select,HOUSEHOLD,PAPER_CLEANING,EA,False,,2013-05-02
+100157,Brightway Laundry Detergent 92 oz,Brightway,HOUSEHOLD,PAPER_CLEANING,EA,False,,2026-03-07
+100158,Meridian Select Laundry Detergent 92 oz,Meridian Select,HOUSEHOLD,PAPER_CLEANING,EA,False,,2021-06-30
+100159,Brightway Trash Bags 40 ct,Brightway,HOUSEHOLD,PAPER_CLEANING,EA,False,,2009-02-21
+100160,Meridian Select Trash Bags 40 ct,Meridian Select,HOUSEHOLD,PAPER_CLEANING,EA,False,,2015-06-05

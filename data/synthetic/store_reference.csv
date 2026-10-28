@@ -1,0 +1,42 @@
+store_code,store_name,city,state,region,store_format,opened_date,is_active
+ST001,Meridian Des Moines,Des Moines,IA,Central,SUPERMARKET,1997-02-06,True
+ST002,Meridian Ames,Ames,IA,Central,NEIGHBORHOOD,1997-01-04,True
+ST003,Meridian Ankeny,Ankeny,IA,Central,SUPERMARKET,1997-12-22,True
+ST004,Meridian West Des Moines,West Des Moines,IA,Central,SUPERMARKET,2018-03-30,True
+ST005,Meridian Cedar Rapids,Cedar Rapids,IA,East,SUPERMARKET,2014-08-12,True
+ST006,Meridian Iowa City,Iowa City,IA,East,NEIGHBORHOOD,1998-05-28,True
+ST007,Meridian Davenport,Davenport,IA,East,SUPERMARKET,1986-04-13,True
+ST008,Meridian Dubuque,Dubuque,IA,East,NEIGHBORHOOD,2004-07-30,True
+ST009,Meridian Waterloo,Waterloo,IA,North,NEIGHBORHOOD,2006-01-07,True
+ST010,Meridian Mason City,Mason City,IA,North,EXPRESS,1998-02-19,True
+ST011,Meridian Sioux City,Sioux City,IA,West,NEIGHBORHOOD,2020-04-17,True
+ST012,Meridian Council Bluffs,Council Bluffs,IA,West,NEIGHBORHOOD,2002-10-24,True
+ST013,Meridian Omaha,Omaha,NE,West,SUPERMARKET,2010-03-13,True
+ST014,Meridian Lincoln,Lincoln,NE,West,SUPERMARKET,1999-04-07,True
+ST015,Meridian Grand Island,Grand Island,NE,West,EXPRESS,2001-03-23,True
+ST016,Meridian Kearney,Kearney,NE,West,EXPRESS,2014-03-09,True
+ST017,Meridian Minneapolis,Minneapolis,MN,North,SUPERMARKET,2002-01-09,True
+ST017,Meridian Minneapolis (Uptown),Minneapolis,MN,Central,SUPERMARKET,2002-01-09,True
+ST018,Meridian St. Paul,St. Paul,MN,North,SUPERMARKET,2012-04-27,True
+ST019,Meridian Rochester,Rochester,MN,North,NEIGHBORHOOD,1992-08-12,True
+ST020,Meridian Mankato,Mankato,MN,North,EXPRESS,2020-07-31,True
+ST021,Meridian St. Cloud,St. Cloud,MN,North,NEIGHBORHOOD,2009-12-08,True
+ST022,Meridian Madison,Madison,WI,East,SUPERMARKET,2019-09-24,True
+ST023,Meridian La Crosse,La Crosse,WI,East,NEIGHBORHOOD,2000-12-07,True
+ST024,Meridian Eau Claire,Eau Claire,WI,North,NEIGHBORHOOD,1984-02-02,True
+ST025,Meridian Green Bay,Green Bay,WI,East,SUPERMARKET,1994-03-24,True
+ST026,Meridian Rockford,Rockford,IL,East,SUPERMARKET,1995-11-02,True
+ST027,Meridian Peoria,Peoria,IL,East,NEIGHBORHOOD,1990-08-16,True
+ST028,Meridian Moline,Moline,IL,East,EXPRESS,1986-07-29,True
+ST029,Meridian Springfield IL,Springfield,IL,South,SUPERMARKET,2023-12-24,True
+ST030,Meridian Champaign,Champaign,IL,South,NEIGHBORHOOD,1997-02-20,True
+ST031,Meridian Kansas City,Kansas City,MO,South,SUPERMARKET,1994-12-08,True
+ST032,Meridian Columbia,Columbia,MO,South,NEIGHBORHOOD,2010-12-21,True
+ST033,Meridian St. Joseph,St. Joseph,MO,South,EXPRESS,2021-01-30,True
+ST034,Meridian Springfield MO,Springfield,MO,South,SUPERMARKET,2012-05-14,True
+ST035,Meridian Topeka,Topeka,KS,South,NEIGHBORHOOD,2019-07-29,True
+ST036,Meridian Lawrence,Lawrence,KS,South,NEIGHBORHOOD,2015-12-09,True
+ST037,Meridian Sioux Falls,Sioux Falls,SD,West,SUPERMARKET,2013-03-24,True
+ST038,Meridian Fargo,Fargo,ND,North,SUPERMARKET,2012-02-03,True
+ST039,Meridian Bismarck,Bismarck,ND,North,NEIGHBORHOOD,1980-05-03,True
+ST040,Meridian Grand Forks,Grand Forks,ND,North,EXPRESS,1993-05-27,True

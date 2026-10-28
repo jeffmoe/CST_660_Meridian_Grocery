@@ -1,0 +1,80 @@
+{
+  "seed": 660,
+  "as_of_date": "2026-10-27",
+  "window_start": "2026-09-16",
+  "days": 42,
+  "row_counts": {
+    "store_reference": 41,
+    "sku_master": 160,
+    "planogram": 4037,
+    "daily_sku_sales": 165644
+  },
+  "promo_events": 114,
+  "injected_defects": {
+    "store_reference_duplicate_key": {
+      "store_code": "ST017",
+      "row_count_for_key": 2,
+      "description": "Second store_reference row for ST017 (district re-org) without retiring the original; joins on store_code double this store's slots.",
+      "planogram_rows_affected_by_fanout": 133
+    },
+    "orphan_store_codes": {
+      "count": 5,
+      "rows": [
+        {
+          "planogram_id": "PG00003231",
+          "store_code": "ST041"
+        },
+        {
+          "planogram_id": "PG00003209",
+          "store_code": "ST099"
+        },
+        {
+          "planogram_id": "PG00000102",
+          "store_code": "ST000"
+        },
+        {
+          "planogram_id": "PG00001509",
+          "store_code": "ST041"
+        },
+        {
+          "planogram_id": "PG00003733",
+          "store_code": "ST7"
+        }
+      ]
+    },
+    "null_skus": {
+      "count": 4,
+      "planogram_ids": [
+        "PG00000594",
+        "PG00003673",
+        "PG00002470",
+        "PG00002015"
+      ]
+    },
+    "duplicate_planogram_ids": {
+      "distinct_ids_duplicated": 3,
+      "extra_rows": 3,
+      "rows": [
+        {
+          "planogram_id": "PG00000239",
+          "kind": "exact_duplicate_row"
+        },
+        {
+          "planogram_id": "PG00002391",
+          "kind": "conflicting_attributes"
+        },
+        {
+          "planogram_id": "PG00003167",
+          "kind": "conflicting_attributes"
+        }
+      ]
+    },
+    "units_decimal_shift": {
+      "count": 1,
+      "planogram_id": "PG00000446",
+      "business_date": "2026-10-12",
+      "units_sold_correct": 28,
+      "units_sold_posted": 2800
+    }
+  }
+}
