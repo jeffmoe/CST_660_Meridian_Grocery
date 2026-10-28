@@ -1,0 +1,175 @@
+# Producer-consumer data contract: store planogram and daily SKU sales.
+#
+# Machine-readable: validate_contract.py enforces every clause below against a
+# delivered payload, and against a previous contract version for change policy.
+#   python validate_contract.py contracts/store_sku_sales.yaml data/synthetic
+#
+# The planogram says which SKU sits in which store; daily_sku_sales carries the
+# units, baskets, promotion flag, shrink and perishable waste for every slot on
+# the shelf each business date. Both ship in the same nightly delivery, and
+# daily_sku_sales is what the freshness SLA is measured on.
+
+contract:
+  id: meridian.merchandising.store_sku_sales
+  version: 1.0.0
+  status: active                     # draft | active | deprecated
+  effective_on: 2026-10-01
+  description: >
+    One row per store-SKU planogram slot at Meridian Grocery Co-op's 40 stores,
+    plus daily units sold, net sales, basket count, promotion flag, shrink and
+    perishable waste for every slot on the shelf on each business date. Source
+    of record for the category managers' daily units-by-SKU-by-store report.
+
+owner:
+  team: Store Systems Data Platform
+  role: producer
+  email: store-data@meridiancoop.example
+  slack: "#store-data"
+  escalation: store-data-oncall@meridiancoop.example
+
+consumers:
+  - team: Category Management
+    use: Daily units sold by SKU by store with promotion flags, refreshed before 07:00; promo lift review
+    email: category-management@meridiancoop.example
+  - team: Store Operations
+    use: Shrink and perishable waste review by store and department
+    email: store-ops-reporting@meridiancoop.example
+  - team: Marketing
+    use: Weekly ad circular post-mortems (promotion lift by ad event)
+    email: marketing-analytics@meridiancoop.example
+
+datasets:
+  - name: planogram
+    file: planogram.csv
+    primary_key: [planogram_id]
+    allow_undeclared_columns: false
+    columns:
+      - name: planogram_id
+        type: string
+        nullable: false
+        pattern: '^PG\d{8}$'
+        description: Planogram slot ID, unique per store-SKU placement.
+      - name: store_code
+        type: string
+        nullable: false
+        pattern: '^ST\d{3}$'
+        description: Store; joins to store_reference.store_code.
+      - name: sku
+        type: string
+        nullable: false
+        pattern: '^\d{6}$'
+        description: Item; joins to sku_master.sku.
+      - name: shelf_location
+        type: string
+        nullable: false
+        allowed_values: [AISLE, ENDCAP, COOLER, FREEZER, PRODUCE_TABLE, BAKERY_CASE]
+      - name: set_date
+        type: date
+        nullable: false
+        description: Date the item was first set on the shelf in this store.
+      - name: removal_date
+        type: date
+        nullable: true
+        description: Null while the item is on the shelf.
+      - name: status
+        type: string
+        nullable: false
+        allowed_values: [ACTIVE, REMOVED]
+      - name: regular_price
+        type: decimal
+        nullable: false
+        range: {min: 0.01, max: 99.99}
+        description: Everyday shelf price in USD per unit of measure, before promotions.
+
+  - name: daily_sku_sales
+    file: daily_sku_sales.csv
+    primary_key: [planogram_id, business_date]
+    allow_undeclared_columns: false
+    columns:
+      - name: planogram_id
+        type: string
+        nullable: false
+        pattern: '^PG\d{8}$'
+      - name: business_date
+        type: date
+        nullable: false
+        description: Store trading day the sales apply to.
+      - name: units_sold
+        type: integer
+        nullable: false
+        # No single store sells more than 2,000 of one SKU in a day; anything
+        # above that must be confirmed by Store Operations before it is published.
+        range: {min: 0, max: 2000}
+      - name: net_sales
+        type: decimal
+        nullable: false
+        range: {min: 0.00, max: 50000.00}
+        description: USD after promotional discounts, before tax.
+      - name: basket_count
+        type: integer
+        nullable: false
+        range: {min: 0, max: 2000}
+        description: Customer transactions (baskets) that contained the SKU.
+      - name: promo_flag
+        type: boolean
+        nullable: false
+        description: True when the SKU was on a weekly ad promotion in this store on this date.
+      - name: promo_id
+        type: string
+        nullable: true
+        pattern: '^PR\d{6}$'
+        description: Ad event ID; null when promo_flag is False.
+      - name: shrink_units
+        type: integer
+        nullable: false
+        range: {min: 0, max: 500}
+        description: Units lost to theft, damage or scan error.
+      - name: waste_units
+        type: integer
+        nullable: false
+        range: {min: 0, max: 500}
+        description: Perishable units pulled past their sell-by date.
+
+sla:
+  freshness:
+    # Sales for business date D are delivered by 07:00 Central on D+1, before
+    # category managers open the morning report. Age is measured from the end
+    # of the newest business date in the payload: D stays current until the
+    # next morning's 07:00 deadline, 31 hours after the end of D.
+    dataset: daily_sku_sales
+    column: business_date
+    max_age_hours: 31
+    timezone: America/Chicago
+
+change_policy:
+  versioning: semver
+  # Breaking changes need a major version bump and must be announced to every
+  # consumer at least this many days before they take effect.
+  notification_window_days: 30
+  notify: [consumers]
+  breaking_changes:
+    - remove_dataset
+    - remove_column                  # a rename shows up as remove + add
+    - change_column_type
+    - change_column_pattern
+    - make_column_nullable
+    - change_primary_key
+    - remove_allowed_value
+    - add_allowed_value              # consumers map enums explicitly
+    - widen_range
+    - relax_freshness_sla
+    - allow_undeclared_columns
+  non_breaking_changes:
+    - add_dataset
+    - add_column
+    - make_column_required
+    - narrow_range
+    - tighten_freshness_sla
+  # Announced changes. A breaking change between two contract versions is only
+  # accepted when the newer version is listed here with enough notice.
+  change_log:
+    - version: 1.0.0
+      announced_on: 2026-09-01
+      effective_on: 2026-10-01
+      breaking: false
+      summary: Initial contract.
